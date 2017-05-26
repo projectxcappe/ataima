@@ -8,7 +8,7 @@
 
 /* Begin PBXBuildFile section */
 		89F9A5A71ED1F1E400CF02C2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9A5A61ED1F1E400CF02C2 /* AppDelegate.swift */; };
-		89F9A5A91ED1F1E400CF02C2 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9A5A81ED1F1E400CF02C2 /* ViewController.swift */; };
+		89F9A5A91ED1F1E400CF02C2 /* MainTable.swift in Sources */ = {isa = PBXBuildFile; fileRef = 89F9A5A81ED1F1E400CF02C2 /* MainTable.swift */; };
 		89F9A5AC1ED1F1E400CF02C2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 89F9A5AA1ED1F1E400CF02C2 /* Main.storyboard */; };
 		89F9A5AF1ED1F1E400CF02C2 /* ataima.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 89F9A5AD1ED1F1E400CF02C2 /* ataima.xcdatamodeld */; };
 		89F9A5B11ED1F1E400CF02C2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 89F9A5B01ED1F1E400CF02C2 /* Assets.xcassets */; };
@@ -29,7 +29,7 @@
 /* Begin PBXFileReference section */
 		89F9A5A31ED1F1E400CF02C2 /* ataima.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = ataima.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		89F9A5A61ED1F1E400CF02C2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
-		89F9A5A81ED1F1E400CF02C2 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		89F9A5A81ED1F1E400CF02C2 /* MainTable.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MainTable.swift; sourceTree = "<group>"; };
 		89F9A5AB1ED1F1E400CF02C2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		89F9A5AE1ED1F1E400CF02C2 /* ataima.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ataima.xcdatamodel; sourceTree = "<group>"; };
 		89F9A5B01ED1F1E400CF02C2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
@@ -80,7 +80,7 @@
 			isa = PBXGroup;
 			children = (
 				89F9A5A61ED1F1E400CF02C2 /* AppDelegate.swift */,
-				89F9A5A81ED1F1E400CF02C2 /* ViewController.swift */,
+				89F9A5A81ED1F1E400CF02C2 /* MainTable.swift */,
 				89F9A5AA1ED1F1E400CF02C2 /* Main.storyboard */,
 				89F9A5B01ED1F1E400CF02C2 /* Assets.xcassets */,
 				89F9A5B21ED1F1E400CF02C2 /* LaunchScreen.storyboard */,
@@ -203,7 +203,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				89F9A5AF1ED1F1E400CF02C2 /* ataima.xcdatamodeld in Sources */,
-				89F9A5A91ED1F1E400CF02C2 /* ViewController.swift in Sources */,
+				89F9A5A91ED1F1E400CF02C2 /* MainTable.swift in Sources */,
 				89F9A5A71ED1F1E400CF02C2 /* AppDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
