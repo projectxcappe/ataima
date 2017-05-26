@@ -9,19 +9,17 @@
 import UIKit
 
 class MainTable: UITableViewController {
-
-    override func viewDidLoad() {
-        super.viewDidLoad()
-        // Do any additional setup after loading the view, typically from a nib.
-    }
-
-    override func didReceiveMemoryWarning() {
-        super.didReceiveMemoryWarning()
-        // Dispose of any resources that can be recreated.
-    }
     
+    var studentData:[String:String] = ["Attendance":"G", "Name":"Joe", "Program":"Tiny Tigers", "Age":"10", "ATANumber":"1234567890", "Rank":"Purple"]
+
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
         let cell = tableView.dequeueReusableCell(withIdentifier: "StudentCell", for: indexPath) as! StudentCell
+        
+        cell.nameLabel.text = studentData["Name"]
+        cell.programsLabel.text = studentData["Program"]
+        cell.ageLabel.text = studentData["Age"]
+        cell.ataNumberLabel.text = studentData["ATANumber"]
+        cell.rankLabel.text = studentData["Rank"]
         
         return cell
     }
@@ -31,6 +29,7 @@ class MainTable: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
+        tableView.rowHeight = 75
         return 1
     }
 
@@ -38,10 +37,9 @@ class MainTable: UITableViewController {
 }
 
 
-
 class StudentCell:UITableViewCell {
     
-    @IBOutlet weak var attendanceLabel: UILabel!
+    @IBOutlet weak var attendanceView: UIView!
     @IBOutlet weak var nameLabel: UILabel!
     @IBOutlet weak var programsLabel: UILabel!
     @IBOutlet weak var ageLabel: UILabel!
