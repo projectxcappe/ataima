@@ -10,6 +10,17 @@ import UIKit
 
 class MainTable: UITableViewController {
     
+    @IBOutlet weak var addButton: UIBarButtonItem!
+    
+    @IBAction func addNewStudent(_ sender: Any) {
+        print("hello")
+    }
+    
+    override func viewDidLoad() {
+        super.viewDidLoad()
+
+    }
+    
     var studentData:[String:String] = ["Attendance":"G", "Name":"Joe", "Program":"Tiny Tigers", "Age":"10", "ATANumber":"1234567890", "Rank":"Purple"]
 
     override func tableView(_ tableView: UITableView, cellForRowAt indexPath: IndexPath) -> UITableViewCell {
@@ -30,7 +41,7 @@ class MainTable: UITableViewController {
     
     override func tableView(_ tableView: UITableView, numberOfRowsInSection section: Int) -> Int {
         tableView.rowHeight = 75
-        return 1
+        return 40
     }
 
 
